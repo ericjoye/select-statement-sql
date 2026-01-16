@@ -29,6 +29,37 @@ This project contains sample database tables and SQL queries I created to practi
 - CASE statements for conditional logic
 - Common Table Expressions (CTEs)
 
+## Sample Queries
+
+The project includes 7 different queries:
+
+1. Find all Sales employees making over $50,000
+2. List employees with their department names (using JOIN)
+3. Count employees and calculate average salary by department
+4. Find employees earning above company average (using subquery)
+5. Show employees assigned to active projects
+6. Categorize employees by salary level (using CASE)
+7. Compare employee salaries to their department average (using CTE)
+
+## Sample Output
+
+**Query 2: List employees with their department names**
+
+| employee_id | first_name | last_name | department_name | hire_date  |
+|-------------|------------|-----------|----------------|------------|
+| 103         | Mike       | Williams  | Marketing      | 2023-01-10 |
+| 104         | Emily      | Brown     | Marketing      | 2022-11-05 |
+| 108         | Anna       | Davis     | HR             | 2023-02-14 |
+
+**Query 4: Find employees earning above company average**
+
+| employee_id | first_name | last_name | salary |
+|-------------|------------|-----------|--------|
+| 106         | Lisa       | Garcia    | 82000  |
+| 105         | David      | Jones     | 75000  |
+| 109         | James      | Miller    | 71000  |
+| 110         | Maria      | Wilson    | 69000  |
+
 ## How to Use
 
 1. Run `create_tables.sql` to create the tables
